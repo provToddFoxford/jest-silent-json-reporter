@@ -51,7 +51,8 @@ class SilentReporter {
 
   onRunStart() {
     if (jestUtils.isInteractive) {
-      jestUtils.clearLine(process.stderr);
+      // jestUtils.clearLine(process.stderr);
+      this.stdio.log('\n');
     }
   }
 
