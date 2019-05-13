@@ -1,10 +1,10 @@
 {
-  "name": "jest-silent-reporter",
-  "version": "0.1.2",
-  "description": "A silent reporter for Jest",
+  "name": "jest-silent-json-reporter",
+  "version": "0.0.1",
+  "description": "A silent json reporter for Jest",
   "main": "index.js",
-  "repository": "https://github.com/rickhanlonii/jest-silent-reporter",
-  "author": "rickhanlonii <rickhanlonii@gmail.com>",
+  "repository": "https://github.com/provToddFoxford/jest-silent-json-reporter",
+  "author": "provToddFoxford <todd.foxford@providence.org>",
   "license": "MIT",
   "scripts": {
     "prettier": "prettier --write **/**.js **/**.md"
