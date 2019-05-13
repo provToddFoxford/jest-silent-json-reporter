@@ -75,8 +75,8 @@ class SilentReporter {
       if (testResult.failureMessage) {
         const jsonFailed = logFailedTestResult(testResult);
         const failedStr = JSON.stringify(jsonFailed);
-        const niceStr = failedStr.replace(/\[\d+m/g, '')
-        this.stdio.log('\n\n' + niceStr);
+        const niceStr = failedStr.replace(/\[\d+m/g, '');
+        this.stdio.log('\n' + niceStr);
       }
       const didUpdate = this._globalConfig.updateSnapshot === 'all';
       const snapshotStatuses = helpers.getSnapshotStatus(
